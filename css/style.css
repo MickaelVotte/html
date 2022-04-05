@@ -1,0 +1,103 @@
+body{
+    background-color: #3A3845;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+
+caption{
+    font-size: 4rem;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+table, th, tr, td{
+    border: 1px solid grey;
+    font-size: 2.5rem;     
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+}
+td{
+    font-size: 1.25rem;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+/*----class------*/
+.plans{
+    color: #000;
+    background-color: #fff;
+}
+
+.orange{
+    color: #ff9d00;
+    font-size: 2rem;
+}
+
+.red{
+    color: #ec3d45;
+    font-size: 2rem;
+}
+
+.blue{
+    color: #08b9ca;
+    font-size: 2rem;
+
+}
+
+.left{
+    text-align: left;
+}
+
+/*----icon-----*/
+
+
+.icon-red{
+    color: #ec3d45;
+}
+
+.icon-green{
+    color: green;
+}
+
+/*-------top---------*/
+.starter{
+    background-color: #ff9d00;
+   
+}
+
+.medium{
+    background-color:#ec3d45 ;
+   
+}
+
+.premium{
+    background-color: #08b9ca;
+   
+}
+
+/*--------bottom-----*/
+.fusion{
+    text-align: center; 
+}
+
+.bottom{
+    border-radius: 100px;
+   background-color:#ff9d00;
+   font-size: 1.5rem;
+    padding: 20px;
+    margin:15px;
+}
