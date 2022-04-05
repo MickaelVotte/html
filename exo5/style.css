@@ -1,9 +1,9 @@
-.table{
-    border: 2px solid black;
+.table, td, th,tr{
+    border: 1px solid black;
 }
 
 
-
-.center{
+.footer{
     text-align: center;
+
 }
