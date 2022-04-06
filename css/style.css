@@ -1,91 +1,106 @@
+
+/*---------elements--------*/
+
 body{
     background-color: #3A3845;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans bold', sans-serif ;
     text-align: center;
     color: #fff;
+    font-weight: bold;
 }
 
 
 caption{
-    font-size: 4rem;
+    font-size: 3.50rem;
     padding: 15px;
     margin: 15px;
+    font-weight: bold;
 }
 
 
 table, th, tr, td{
     border: 1px solid grey;
-    font-size: 2.5rem;     
+    font-size: 3rem;     
 }
 
 table{
     border-collapse: collapse;
+    margin: 1rem auto ;
+    padding: 10px;
+  
 }
 
 th{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
     padding: 15px;
     margin: 10px;
+   ;
 }
 td{
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     margin: 10px;
-    padding: 20px;
+    padding: 15px;
 }
+
 
 
 /*----class------*/
+
 .plans{
     color: #000;
     background-color: #fff;
+    padding-right: 10rem;
+    
+
 }
 
 .orange{
     color: #ff9d00;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
 }
 
 .red{
     color: #ec3d45;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+
 }
 
 .blue{
     color: #08b9ca;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
 
 }
 
 .left{
     text-align: left;
+    padding-left: 3rem;
+    font-size: 1.20rem;  
 }
 
-/*----icon-----*/
 
-
-.icon-red{
-    color: #ec3d45;
-}
-
-.icon-green{
-    color: green;
-}
 
 /*-------top---------*/
 .starter{
     background-color: #ff9d00;
+    font-size: 1rem;
    
 }
 
 .medium{
     background-color:#ec3d45 ;
+    font-size: 1rem;
    
 }
 
 .premium{
     background-color: #08b9ca;
+    font-size: 1rem;
+
    
 }
 
@@ -99,5 +114,24 @@ td{
    background-color:#ff9d00;
    font-size: 1.5rem;
     padding: 20px;
-    margin:15px;
+    margin:30px;
+}
+
+.bottom:hover{
+    background-color:#fff ;
+    color: #000;
+    cursor: pointer;
+}
+
+/*----icon-----*/
+
+
+.icon-red{
+    color: #ec3d45;
+    font-size: 2rem;
+}
+
+.icon-green{
+    color: #51f68d;
+    font-size: 2rem;
 }
